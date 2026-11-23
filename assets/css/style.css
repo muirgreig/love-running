@@ -85,11 +85,17 @@ nav {
 }
 
 /* Main Content */
-main{
-    background-color: lightblue;
+main {
     /* Main element to take up remaining space */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Hero section */
+#hero {
+        height: 600px;
+        width: 100%;
+        background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
